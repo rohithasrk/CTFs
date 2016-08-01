@@ -8,7 +8,7 @@ So, here it goes.
 * You could see the script [downloadall.sh](./downloadall.sh) which I used to get all the images.
 * Then after downloading all of them and running strings in each we find that we aren't able to get anything.
 * Upon using `diff file1 file2`, we see that it there is a small part of flag in the tags of Author.
-* Running the script [diff.sh](./diff.sh) and [diff.py](./diff.py) we get the flag.
+* Running the scripts [diff.sh](./diff.sh) and [diff.py](./diff.py) we get the flag.
 * We get 48 characters like this ending with '==' which maybe a base64 encryted text.
 * Decrypt it and there it is.
 
